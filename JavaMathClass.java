@@ -17,7 +17,7 @@ public class JavaMathClass {
     private static final double C = 299792458.0;
     
     public static void main(String[] args) {
-        
+        //Each part of the prompt is divided into 5 methods
         part1();
         System.out.print("\n");
         part2();
