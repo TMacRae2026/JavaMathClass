@@ -44,7 +44,7 @@ public class JavaMathClass {
         //uses PiR^2
         System.out.printf(" - area: %.3f%n", (Math.PI * (randNumber*randNumber)));
         //uses 4/3(PiR^3)
-        System.out.printf(" - volume: %.3f%n", ((4/3) * Math.PI * Math.pow(randNumber, 3)));
+        System.out.printf(" - volume: %.3f%n", ((4.0 /3.0) * Math.PI * Math.pow(randNumber, 3)));
     }
     
     static void part3() {
